@@ -3,5 +3,11 @@ console.log('Loaded!');
 // Change the text of the main-text div
 var element = document.getElementById('main-text');
 
-element.innerhtml = 'new value';
+element.innerHTML = 'new value';
+
+// Move the image
+var img = document.getElementById('img');
+img.onlick = function(){
+    img.style.marginleft='100px';
+};
    
